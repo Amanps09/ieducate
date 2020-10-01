@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.rightnav{
+  background-color: black;
+  width: 30%;
+  text-align: right;
+  align-items: center;
+  height: 70px;
+  padding: 0px 23px;
+}
+
+.nav-list{
+width: 70%;
+background-color: black;
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+list-style: none;
+padding: 23px 27px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-size: 21px;
+font-family: 'Ubuntu',sans-serif;
+}
+
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+#search{
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid grey;
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.7) url('city.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /*font-family: sans-serif;*/
+  max-width: 50%;
+  margin: auto;
+  font-size: 22px;
+  height: 80%;
+}
+
+.firstsection{
+  height: 100vh;
+
+}
+
+.firsthalf{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondhalf{
+width: 30%;
+}
+
+.secondhalf img{
+  width: 70%;
+  padding: 15px;
+  border: 5px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+.text-big{
+  font-size: 41px;
+
+}
+
+.text-small{
+  font-size: 16px;
+}
+
+.btn{
+  padding: 8px 20px;
+  margin: 7px 4px;
+  border: 2px solid white;
+  font-size: 18px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-dark{
+  color: black;
+  border: 2px solid black;
+}
+
+.btn-sm{
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.section{
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+flex-direction: row-reverse;
+}
+
+.paras{
+  padding: 0px 65px;
+}
+
+.sectionsubtag{
+  font-size: 18px;
+  font-family: 'Segoe',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.thumbnail img{
+  width: 330px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.contact{
+  background-color: #F3EBE9;
+  height: 600px;
+}
+
+.textcenter{
+  text-align: center;
+  font-size: 35px;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form{
+  max-width: 600px;
+  margin: 23px auto;
+}
+
+.form input{
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  margin: 15px 0px;
+  padding: 7px 3px;
+}
+
+.textfooter{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 11px 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.eee{
+  background-color: black;
+}
+
+@media only screen and (max-width: 1140px) {
+  .navlist{
+    flex-direction: column;
+  }
+  .rightnav{
+    flex-direction: column;
+  }
+}
