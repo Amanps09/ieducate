@@ -80,7 +80,7 @@ font-family: 'Ubuntu',sans-serif;
 
 .firstsection{
   height: 100vh;
-
+  margin-bottom: 10px;
 }
 
 .firsthalf{
@@ -122,7 +122,11 @@ width: 30%;
   cursor: pointer;
   border-radius: 7px;
 }
-
+.nav-btn:hover{
+  background-color: white;
+  color: black;
+  transition: 700ms;
+}
 .btn-dark{
   color: black;
   border: 2px solid black;
@@ -143,6 +147,12 @@ width: 30%;
   font-family: 'Ubuntu', sans-serif;
 }
 
+.section:hover{
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  transition: 650ms;
+  padding: 10px;
+}
 .section-left{
 flex-direction: row-reverse;
 }
@@ -166,6 +176,7 @@ flex-direction: row-reverse;
 .contact{
   background-color: #F3EBE9;
   height: 600px;
+  margin-top: 10px;
 }
 
 .textcenter{
